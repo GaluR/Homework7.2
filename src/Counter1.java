@@ -5,7 +5,7 @@ public class Counter1 {
         do{
             System.out.printf("%.1f, ", number);
             number=number+0.1;
-        }while(number<=3.0);
+        }while(number<3.0);
         System.out.println("3.0");
     }
 }
