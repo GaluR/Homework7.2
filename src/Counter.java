@@ -3,7 +3,7 @@ public class Counter {
         double number=0;
 
         while(number<=3.1){
-            System.out.printf("%.1f\n", number);
+            System.out.printf("%.1f, ", number);
             number=number+0.1;
         }
     }
